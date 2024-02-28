@@ -1,0 +1,13 @@
+sudo apt-get update
+sudo apt-get install python3
+sudo apt-get install python3-pip
+sudo pip3 install flask
+sudo apt-get install nginx
+sudo apt-get install gunicorn
+sudo apt-get install git
+
+pip3 install -r requirements.txt
+
+python3 NAME_of_webapp.py
+
+https://parisrohan.medium.com/how-to-deploy-a-flask-application-on-aws-ec2-instance-d5c44c00d133
